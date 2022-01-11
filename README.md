@@ -9,4 +9,7 @@ Thereafter, change the following parameters in `BboxToXml.py` and run it:
 * `bbox_dir`: directory containing the .npy objects with the bounding boxes (N,6) 
 * `xml_dir`: directory where the .xml files will be saved
 
-This will generate the dataset in the appropriate format to train YOLO.
+This will generate the dataset in the appropriate format to train the model.
+
+
+

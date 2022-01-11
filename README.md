@@ -11,5 +11,27 @@ Thereafter, change the following parameters in `BboxToXml.py` and run it:
 
 This will generate the dataset in the appropriate format to train the model.
 
+## Data Augmentation
+If you want to perform data augmentation, change the `img_dir`, `bbox_dir`, and `maxpatches` parameter in `dataaugmentation.py` and run it, where: 
+
+* `img_dir`: directory containing the .tif images (Z,X,Y,C)
+* `bbox_dir`: directory containing the .npy objects with the bounding boxes (N,6) 
+* `maxpatches`: number of augmented image patches
+
+It performs z-axis aligned rotations in the range (0, 360◦) with steps of size 90◦, horizontal flips, vertical flips and intensity variations.
+
+## Dataset: Tree Structure
+Organize the training and validation images and annotations as follows: 
+
+```
+datasetyolo
+├── train
+│   ├── images
+│   └── annot
+└── val
+    ├── images
+    └── annot
+```
+
 
 

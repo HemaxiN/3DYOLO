@@ -34,4 +34,8 @@ datasetyolo
 ```
 
 
+## Requirements
+
+Python 3.5.2, Tensorflow-GPU 1.9.0, Keras 2.2.4 and other packages listed in `requirements.txt`.
+
 

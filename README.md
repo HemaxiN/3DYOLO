@@ -21,7 +21,7 @@ If you want to perform data augmentation, change the `img_dir`, `bbox_dir`, and 
 It performs z-axis aligned rotations in the range (0, 360◦) with steps of size 90◦, horizontal flips, vertical flips and intensity variations.
 
 ## Dataset: Tree Structure
-Organize the training and validation images and annotations as follows: 
+Organize the training and validation images (.tif files) and annotations (in PASCAL VOC format) as follows: 
 
 ```
 datasetyolo
@@ -32,6 +32,10 @@ datasetyolo
     ├── images
     └── annot
 ```
+
+An example of a 2D Code to generate annotations in VOC format can be found [here](https://github.com/HemaxiN/XML-files-based-on-Pascal-VOC-format-from-binary-segmentation-masks).
+
+
 ## Training
 
 To train the model follow the steps provided in the jupyter notebook (https://github.com/HemaxiN/3DYOLO/blob/main/3DTinyYolo.ipynb).

@@ -38,7 +38,7 @@ An example of a 2D Code to generate annotations in VOC format can be found [here
 
 ## Training
 
-To train the model follow the steps provided in the jupyter notebook (https://github.com/HemaxiN/3DYOLO/blob/main/3DTinyYolo.ipynb).
+To train the model follow the steps provided in the [jupyter notebook](https://github.com/HemaxiN/3DYOLO/blob/main/3DTinyYolo.ipynb).
 
 ## Requirements
 
